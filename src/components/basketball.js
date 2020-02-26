@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Matches from './Matches';
 
 
-class Football extends Component{
+class Basketball extends Component{
     state = {
         match: [
           { id: '', event_home_team: '', event_away_team: '',event_halftime_result:'', event_final_result:''},
@@ -17,10 +17,10 @@ class Football extends Component{
         otherState: 'some other value'
       }
       getMatchNumber = async () => {
-        const responseOfmatchNo = await fetch(`https://allsportsapi.com/api/football/?met=Fixtures&APIkey=fcf3a5576b7ecc29c86a0094f0799963f78ce3de1d5249c4f9c1f9118f6a8fb0&from=2020-02-20&to=2020-02-26`);
+        const responseOfmatchNo = await fetch(`https://allsportsapi.com/api/basketball/?met=Livescore&APIkey=fcf3a5576b7ecc29c86a0094f0799963f78ce3de1d5249c4f9c1f9118f6a8fb0&from=2020-02-15&to=2020-02-26`);
         const dataOfMatchNo = await responseOfmatchNo.json();
-        console.log(dataOfMatchNo.result);
-        this.setState({ match: dataOfMatchNo.result });
+        console.log(dataOfMatchNo);
+        // this.setState({ match: dataOfMatchNo.result });
       }
       componentDidMount(){
         this.getMatchNumber();
@@ -74,4 +74,4 @@ class Football extends Component{
     }
 }
 
-export default Football;
+export default Basketball;

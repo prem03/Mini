@@ -8,11 +8,6 @@ class Cricket extends Component{
           { id: '', stat: '', score: '',description:''},
           { id: '', stat: '', score: '',description:''},
           { id: '', stat: '', score: '',description:''},
-          { id: '', stat: '', score: '',description:''},
-          { id: '', stat: '', score: '',description:''},
-          { id: '', stat: '', score: '',description:''},
-          { id: '', stat: '', score: '',description:''},
-          { id: '', stat: '', score: '',description:''},
           { id: '', stat: '', score: '',description:''}
     
         ],
@@ -64,32 +59,7 @@ class Cricket extends Component{
           id={this.state.match[4].id} 
           stat={this.state.match[4].stat} 
           score={this.state.match[4].score} 
-          description={this.state.match[4].description}/>
-        <Matches 
-          id={this.state.match[5].id} 
-          stat={this.state.match[5].stat} 
-          score={this.state.match[5].score} 
-          description={this.state.match[5].description}/>
-        <Matches 
-          id={this.state.match[6].id} 
-          stat={this.state.match[6].stat} 
-          score={this.state.match[6].score} 
-          description={this.state.match[6].description}/>
-        <Matches 
-          id={this.state.match[7].id} 
-          stat={this.state.match[7].stat} 
-          score={this.state.match[7].score} 
-          description={this.state.match[7].description}/>     
-        <Matches 
-          id={this.state.match[8].id} 
-          stat={this.state.match[8].stat} 
-          score={this.state.match[8].score} 
-          description={this.state.match[8].description}/>     
-        <Matches 
-          id={this.state.match[9].id} 
-          stat={this.state.match[9].stat} 
-          score={this.state.match[9].score} 
-          description={this.state.match[9].description}/>     
+          description={this.state.match[4].description}/> 
       </div>
         )
     }
