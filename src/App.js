@@ -19,6 +19,7 @@ class App extends Component {
                   <Link to="/basketball">Basketball</Link>
                   <Link to="/contactus">Contact Us</Link>
                   <Link to="/loginsignup">Login / SignUp</Link>
+                  <Link to="/landingpage">Home</Link>
               </Navigation>
           </Header>
           {/* <Drawer title="Title">

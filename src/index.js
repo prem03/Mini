@@ -10,6 +10,7 @@ import "bootstrap-css-only/css/bootstrap.min.css";
 import "mdbreact/dist/css/mdb.css";
 import {BrowserRouter} from 'react-router-dom';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap/dist/css/bootstrap.css';
 
 //window.$matches = []
 

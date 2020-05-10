@@ -7,7 +7,6 @@ class Cricket extends Component{
           { id: '', stat: '', score: '',description:''},
           { id: '', stat: '', score: '',description:''},
           { id: '', stat: '', score: '',description:''},
-          { id: '', stat: '', score: '',description:''},
           { id: '', stat: '', score: '',description:''}
     
         ],
@@ -55,11 +54,6 @@ class Cricket extends Component{
           stat={this.state.match[3].stat} 
           score={this.state.match[3].score} 
           description={this.state.match[3].description}/>
-        <Matches 
-          id={this.state.match[4].id} 
-          stat={this.state.match[4].stat} 
-          score={this.state.match[4].score} 
-          description={this.state.match[4].description}/> 
       </div>
         )
     }

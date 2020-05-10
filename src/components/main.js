@@ -6,6 +6,10 @@ import Football from './football';
 import ContactUs from './contactus';
 import LoginSignup from './loginsignup';
 import Basketball from './basketball';
+import SportsCard from './SportsCard';
+import Carousel from './Carousel';
+import LandingPage from './landingpage';
+import Footer from './footer';
 
 const Main = () => (
     <Switch>
@@ -15,6 +19,10 @@ const Main = () => (
         <Route path ="/contactus" component={ContactUs}/>
         <Route path ="/loginsignup" component={LoginSignup}/>
         <Route path ="/basketball" component={Basketball}/>
+        <Route path ="/SportsCard" component={SportsCard}/>
+        <Route path ="/Carousel" component={Carousel}/>
+        <Route path ="/landingpage" component={LandingPage}/>
+        <Route path ="/footer" component={Footer}/>
     </Switch>
 )
 
