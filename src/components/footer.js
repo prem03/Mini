@@ -1,5 +1,7 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import {Link} from 'react-router-dom';
+
 
 const Footer = () => {
   return (
@@ -10,72 +12,46 @@ const Footer = () => {
             <h5 className="title">Footer Content</h5>
           </MDBCol> */}
           <MDBCol md="6">
-            <h5 className="title">Links</h5>
-            <ul>
+            <h5 className="title">About Sports</h5>
+            <Link to="/cricket">Cricket </Link><br/>
+            <Link to="/football">Football </Link><br/>
+            <Link to="/basketball">Basketball </Link><br/>
+            <Link to="/cricket">CommonWealth </Link><br/>
+            {/* <ul>
               <li className="list-unstyled">
-                <a href="#!">Link 1</a>
+              <Link to="/cricket">Cricket </Link>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Link 2</a>
+              <Link to="/football">Football </Link>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Link 3</a>
+              <Link to="/basketball">Basketball </Link>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Link 4</a>
+              <Link to="/cricket">CommonWealth </Link>
               </li>
-            </ul>
+            </ul> */}
           </MDBCol>
           <MDBCol md="6">
-            <h5 className="title">Links</h5>
-            <ul>
-              <li className="list-unstyled">
-                <a href="#!">Link 1</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 2</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 3</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 4</a>
-              </li>
-            </ul>
+          <h5 className="title">About Sports</h5>
+            <Link to="/cricket">Hockey </Link><br/>
+            <Link to="/football">Badminton </Link><br/>
+            <Link to="/basketball">Soccer </Link><br/>
+            <Link to="/cricket">Olympics </Link><br/>
           </MDBCol>
           <MDBCol md="6">
-            <h5 className="title">Links</h5>
-            <ul>
-              <li className="list-unstyled">
-                <a href="#!">Link 1</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 2</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 3</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 4</a>
-              </li>
-            </ul>
+          <h5 className="title">Useful Links</h5>
+            <Link to="/cricket">Live Score</Link><br/>
+            <Link to="/football">Recommendation</Link><br/>
+            <Link to="/basketball">News Feed</Link><br/>
+            <Link to="/cricket">Player Stats</Link><br/>
           </MDBCol>
           <MDBCol md="6">
-            <h5 className="title">Links</h5>
-            <ul>
-              <li className="list-unstyled">
-                <a href="#!">Link 1</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 2</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 3</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 4</a>
-              </li>
-            </ul>
+          <h5 className="title">Contact Us</h5>
+            <Link to="/cricket">SportsHub , HA-HA Lane, WHIP-MA WHOP-MA Road, Bangalore, Karnataka</Link><br/>
+            <Link to="/cricket">+91 6360379519, 9606408683</Link><br/>
+            <Link to="/football">+91 9110168497, 9113969543</Link><br/>
+            <Link to="/basketball">contactus@sportshub.mail.com</Link><br/>
           </MDBCol>
         </MDBRow>
         
