@@ -17,7 +17,7 @@ class App extends Component {
                   <Link to="/cricket">Cricket</Link>
                   <Link to="/football">Football</Link>
                   <Link to="/basketball">Basketball</Link>
-                  <Link to="/contactus">Contact Us</Link>
+                  <Link to="/PlayerStats">Player Stats</Link>
                   <Link to="/loginsignup">Login / SignUp</Link>
                   <Link to="/landingpage">Home</Link>
               </Navigation>

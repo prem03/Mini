@@ -40,3 +40,27 @@
   padding: 0px 40px 0 45px !important
 }
 
+.mdl-layout__content{
+  padding: 5px 0px 5px 0px
+}
+ 
+.container-fluid{
+  padding: 5px 0px 5px 0px
+}
+.Row-1{
+  padding: 15px 50px 5px 50px
+}
+
+.card-title{
+  text-align: center;
+  font-weight:bold;
+}
+.card-text{
+  text-align: justify;
+}
+
+.col-md-6{
+  max-width: 25% !important
+}
+
+

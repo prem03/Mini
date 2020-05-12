@@ -10,6 +10,7 @@ import SportsCard from './SportsCard';
 import Carousel from './Carousel';
 import LandingPage from './landingpage';
 import Footer from './footer';
+import PlayerStats from './PlayerStats';
 
 const Main = () => (
     <Switch>
@@ -23,6 +24,7 @@ const Main = () => (
         <Route path ="/Carousel" component={Carousel}/>
         <Route path ="/landingpage" component={LandingPage}/>
         <Route path ="/footer" component={Footer}/>
+        <Route path ="/PlayerStats" component={PlayerStats}/>
     </Switch>
 )
 

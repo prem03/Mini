@@ -17,7 +17,7 @@ const items = [
     key: '2'
   },
   {
-    src: 'https://media.gettyimages.com/photos/field-hockey-player-in-mid-action-during-hockey-game-picture-id503545170?s=2048x2048',
+    src: 'https://media.gettyimages.com/photos/guarding-his-player-picture-id915349476?s=2048x2048',
     altText: 'Slide 3',
    // caption: 'Basketball',
     header: 'Basketball',
